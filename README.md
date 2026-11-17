@@ -1,40 +1,39 @@
-# IHWO Phase 1 — Static Website
+# IHWO — Final Phase 1 Website
 
-A responsive, beginner-friendly static website for the IHWO founding initiative.
+A responsive, static information website for the proposed International Humanitarian World Organisation (IHWO).
 
-## Files
+## Pages
 - `index.html` — Home
-- `about.html` — About IHWO
-- `mission.html` — Mission
-- `victim-rights.html` — General victim-rights information
-- `find-help.html` — External support resources
-- `partner-network.html` — Partner principles and verification
-- `transparency.html` — Transparency commitments
-- `contact.html` — Contact guidance
-- `assets/style.css` — Responsive design
+- `about.html` — About and principles
+- `mission.html` — Mission and intended scope
+- `victim-rights.html` — General victim safety and rights information
+- `find-help.html` — External resource directory
+- `partner-network.html` — Partner standards and current status
+- `transparency.html` — Accountability and funding safeguards
+- `contact.html` — Contact status and safety notice
+
+## Assets
+- `assets/style.css` — Responsive styling
 - `assets/site.js` — Shared navigation and footer
+- `assets/favicon.svg` — Site icon
+- `robots.txt` and `sitemap.xml` — Basic search-engine discovery files
 
-## Run locally
-Open `index.html` in a browser. For best results, use VS Code with the Live Server extension, or run a simple local static server.
+## Publish on GitHub Pages
+1. Extract this ZIP.
+2. Upload the contents of the `ihwo-phase1` folder into the repository root. Do not upload the ZIP itself and do not place the files inside an extra nested folder.
+3. Keep the `assets` folder at the same level as `index.html`.
+4. Repository Settings → Pages → Deploy from a branch → `main` → `/(root)`.
+5. Wait for the deployment to complete, then open the Pages URL.
 
-## Deploy with GitHub + Cloudflare Pages
-1. Create a GitHub account and a new **public** repository named `ihwo-phase1`.
-2. Upload the contents of this folder to the repository root. Do not upload only the ZIP file.
-3. In Cloudflare, open Workers & Pages → Create application → Pages → Connect to Git.
-4. Authorise GitHub and select `ihwo-phase1`.
-5. Framework preset: `None`; Build command: leave blank; Build output directory: `/` (or `.` if the interface requires it).
-6. Deploy. Cloudflare will provide a `*.pages.dev` address.
-7. Test every page on mobile and desktop.
+## Important legal, privacy and safeguarding status
+- IHWO is a development-stage initiative. This website does not claim that IHWO is a registered charity, government body, UN agency, police service, court, law firm or emergency service.
+- No active partner network, public case intake, donations, hotline or verified organisational contact channel is claimed.
+- The website intentionally has no case submission form, upload field, database, analytics, tracking pixel or chatbot.
+- Do not activate case intake until lawful authority, secure storage, access controls, informed consent, retention/deletion rules, safeguarding, trained human review and a complaint process are in place.
+- Do not accept donations until legal structure, banking, financial controls and applicable fundraising permissions are confirmed.
+- Victims must never be charged by IHWO for IHWO information or referral support.
+- External links are informational only and are not IHWO partners or endorsements. Verify them periodically.
+- Website text is general information, not legal advice. Obtain qualified local legal review before operating in any country.
 
-## Before public launch
-- Replace or remove any contact placeholders. Do not invent an email address.
-- Review all text with a qualified lawyer for the countries in which IHWO intends to operate.
-- Confirm name/trademark availability and the organisation's legal status.
-- Do not claim registration, official status, partnerships, offices, audited impact or services that do not exist.
-- Do not add a public victim case upload form until secure storage, access controls, consent, retention/deletion rules, safeguarding and human case review are ready.
-- Do not collect donations until legal authority, banking and applicable fundraising compliance are confirmed.
-- Verify external links regularly. Links are informational and are not IHWO partners or endorsements.
-- This is a static information website, not a secure case-management system or AI chatbot.
-
-## Privacy and safety
-This version intentionally has no form, database, analytics, chatbot, file upload or tracking script. Do not add these casually. A future case portal requires a privacy impact assessment, security review and a defined human response process.
+## Editing
+Update the HTML files and `assets/style.css` / `assets/site.js`, then upload the changed files to GitHub and commit the changes.

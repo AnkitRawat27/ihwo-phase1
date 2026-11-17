@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ankitrawat27.github.io/ihwo-phase1/sitemap.xml
